@@ -41,19 +41,10 @@ header {
         font-family: $header-font;
         color: $primary-color;
     }
-    a:nth-of-type(2) {
-        font-size: 1.5rem;
-        font-weight: 700;
-        font-family: $body-font;
-        padding: 0.75rem;
-        border-radius: 1rem;
-        background-color: $primary-color;
-        color: $black;
-        transition: background-color 0.5s ease;
-    }
-    a:nth-of-type(2):hover {
-        background-color: $secondary-color;
-    }
+}
+
+img {
+    width: 50%;
 }
 
 footer {
