@@ -21,17 +21,14 @@ a {
 }
 
 header {
-  margin: 3rem 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
-
-.patternSelection {
-  position:absolute;
+#patternSelection {
+  text-align: center;
 }
+
 
 img {
   width: 50%;
