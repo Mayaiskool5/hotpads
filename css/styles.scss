@@ -11,7 +11,7 @@ $black: #000;
 
 
 body {
-    background-color: black;
+    background-color: #F8C2FF;
     color: white;
     font-family: $body-font;
 }
@@ -31,16 +31,11 @@ a {
 }
 
 header {
-    margin: 3rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    h1 {
-        font-size: 5rem;
-        font-family: $header-font;
-        color: $primary-color;
-    }
+    text-align:center;
+}
+
+.patternSelection {
+  position: absolute;
 }
 
 img {
