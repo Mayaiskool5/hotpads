@@ -8,6 +8,7 @@ body {
 
 main {
   flex: 1;
+  text-align: center;
 }
 
 a {
@@ -25,12 +26,9 @@ header {
   font-size: 3rem;
 }
 
-#patternSelection {
-  text-align: center;
-}
-
-
 img {
+  display: block;
+  margin: auto;
   width: 50%;
 }
 
